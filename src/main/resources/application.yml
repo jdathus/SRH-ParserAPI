@@ -1,0 +1,14 @@
+app:
+  datasource:
+    easyclocking:
+      driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+      password: 1password@
+      url: jdbc:sqlserver://brh-presence-test:1433;instanceName=sekureTime
+      username: admin
+    tms:
+      driverClassName: oracle.jdbc.OracleDriver
+      password: nev#W1d1
+      url: jdbc:oracle:thin:@//192.168.3.176:1521/tms
+      username: tbms
+server:
+  port: 9090
